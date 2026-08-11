@@ -1,0 +1,17 @@
+# All local/offline after first-run download of open weights.
+# No paid APIs, no API keys required.
+
+numpy
+soundfile
+librosa
+
+# Silence removal (VAD)
+torch>=2.0
+torchaudio
+
+# Language identification + transcription
+faster-whisper>=1.0
+
+# MMS fallback (optional, for better accuracy)
+transformers>=4.40
+accelerate
