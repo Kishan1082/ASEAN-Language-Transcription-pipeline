@@ -18,7 +18,7 @@ audio_loader.py      -> mono, 16kHz, normalized float32
 silence_removal.py   -> Silero VAD, trims dead air
    │
    ▼
-lang_id.py            -> SpeechBrain VoxLingua107 (ECAPA-TDNN)
+lang_id.py            -> faster - whisper
    │
    ▼
 transcriber.py        -> faster-whisper (id/ms/th/vi/tl/en)
